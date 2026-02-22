@@ -35,4 +35,4 @@ Teaching Assistant. Thanks for stopping by!
 ## 📬 Let's Connect
 
 [![Blog](https://img.shields.io/badge/Blog-myviewsontech.com-blue?style=flat&logo=google-chrome)](https://myviewsontech.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/kchimbodza)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/kudzayichimbodza)
