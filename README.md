@@ -14,7 +14,7 @@ Teaching Assistant. Thanks for stopping by!
 
 **Cloud & Virtualization**
 `AWS` `CloudFormation` `Terraform` `EC2` `S3` `EBS` `EFS` `VPC` `Lambda`
-`RDS` `DynamoDB` `CloudWatch` `Route53` `CloudFront` `Kinesis`
+`RDS` `DynamoDB` `CloudWatch` `Route53` `CloudFront` `ESXi vSphere`
 `Proxmox` `KVM` `LXC` `Kubernetes` `Docker` `Pextra CloudEnvironment` `Linux`
 
 **Cloud Security & IAM**
