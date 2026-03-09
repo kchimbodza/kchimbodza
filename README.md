@@ -36,6 +36,7 @@ Teaching Assistant. Thanks for stopping by!
 - 🌐 **IoT Security Homelab** — Live IDS/IPS environment with private cloud on Proxmox/KVM at [myviewsontech.com](https://myviewsontech.com)
 - 🔒 **SmartScan Node** — ESP32-based elder care security system with 94.7% detection accuracy. Semi-finalist at Northeastern's Husky Pitch Summit
 - 📡 **CDA/GDA IoT System** — End-to-end IoT pipeline from edge device (Python) to gateway (Java) with encrypted MQTT and CoAP
+- Functional test suite covering health, auth, devices, alarms, and SLA endpoints. 42 pytest test cases with GitHub Actions CI pipeline.
 
 ---
 
