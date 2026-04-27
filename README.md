@@ -25,7 +25,7 @@ I build things at the intersection of cloud infrastructure, IoT, and automation.
 | [**SmartScan Node**](https://github.com/kchimbodza/smartscan-node-aws) | ESP32, AWS IoT Core, Lambda, DynamoDB, Terraform | Elder care occupancy monitoring — ESP32 publishes sensor telemetry via MQTT over TLS to AWS IoT Core, Lambda writes to DynamoDB, SNS fires alerts. Semi-finalist, Northeastern Husky Pitch Summit 2025 |
 | [**AWS Scalable Web Infrastructure**](https://github.com/kchimbodza/aws-scalable-webapp-infra) | Terraform, VPC, ALB, ASG, RDS, CloudWatch | Production-grade AWS infra — ALB across 3 AZs, Auto Scaling driven by CloudWatch CPU alarms, RDS MySQL in private subnets. Load-tested to verify scale-up at 75.6% CPU |
 | [**Fintech Fraud Detection**](https://github.com/kchimbodza/fintech-fraud-detection) | Python, FastAPI, Docker, Kubernetes, KVM/QEMU | FINTRAC-themed fraud detection API on a self-hosted 3-node Kubernetes cluster — auto-scales 1→5 pods under load, self-healing, rolling updates |
-| [**K-Flix React App**](https://github.com/kchimbodza/kflix-react-app) | React 19, Vite, Tailwind, TMDB API | Movie discovery web app with live search, filtering, and responsive UI — built with React 19 and Vite |
+| [**K-Flix React App**](https://github.com/kchimbodza/k-flix-react-app) | React 19, Vite, Tailwind, TMDB API | Movie discovery web app with live search, filtering, and responsive UI — built with React 19 and Vite |
 | [**Network API Test Automation**](https://github.com/kchimbodza/network-api-test-automation) | Python, pytest, Flask, GitHub Actions | 42-case automated REST API test suite with GitHub Actions CI — green build on every push |
 
 ---
