@@ -1,42 +1,31 @@
 # Hi there 👋
 
-I'm Kudzayi. I find myself at the intersection of cloud infrastructure, networks, 
-and cybersecurity — passionate about securing the connected world and building 
-things that bridge the physical and digital.
+I'm Kudzayi — MSc Cyber-Physical Systems (IoT) student at Northeastern University Toronto, Graduate Teaching Assistant, and CCNA certified.
 
-I'm currently pursuing my MSc in Cyber-Physical Systems (IoT) at Northeastern 
-University, where I also teach IoT Fundamentals and Embedded Systems as a 
-Teaching Assistant. Thanks for stopping by!
+I build things at the intersection of cloud infrastructure, IoT, and automation.
 
 ---
 
 ## 🔧 What I Work With
 
-**Cloud & Virtualization**
-`AWS` `CloudFormation` `Terraform` `EC2` `S3` `EBS` `EFS` `VPC` `Lambda`
-`RDS` `DynamoDB` `CloudWatch` `Route53` `CloudFront` `ESXi vSphere`
-`Proxmox` `KVM` `LXC` `Kubernetes` `Docker` `Pextra CloudEnvironment` `Linux`
+**Cloud:** `AWS` `Terraform` `CloudFormation` `Lambda` `DynamoDB` `RDS` `S3` `ALB` `CloudWatch` `IAM`
 
-**Cloud Security & IAM**
-`IAM` `WAF` `Shield` `VPN` `Direct Connect` `ZTNA` `SASE` `CSPM` `CASB` `CWPPs`
+**Containers & Orchestration:** `Docker` `Kubernetes (k3s)` `KVM/QEMU` `Linux`
 
-**IoT & Embedded**
-`ESP32` `MQTT` `CoAP` `TLS/SSL` `Python` `Java` `FreeRTOS`
+**IoT & Embedded:** `ESP32` `FreeRTOS` `MQTT` `TLS/SSL` `MicroPython` `C/C++`
 
-**Security & Networking**
-`Wireshark` `IDS/IPS` `Firewalls` `VLANs` `CCNA` `TCP/IP` `DNS` `OSI`
+**Languages & Testing:** `Python` `Java` `pytest` `GitHub Actions CI/CD`
 
 ---
 
-## 🚀 Featured Work
+## 🚀 Featured Projects
 
-- ☁️ **AWS CloudFormation Lab** — Provisioned S3 and EC2 infrastructure using IaC YAML stack templates with automated deploy and destroy scripts
-- 🖥️ **Private Cloud Lab** — Hands-on virtualization with Proxmox, KVM, LXC, and Pextra CloudEnvironment — managing containers, VMs, and private cloud infrastructure
-- 🔐 **Cloud IAM & Access Control** — Configured IAM users, roles, policies, access keys, and trust relationships on AWS
-- 🌐 **IoT Security Homelab** — Live IDS/IPS environment with private cloud on Proxmox/KVM at [myviewsontech.com](https://myviewsontech.com)
-- 🔒 **SmartScan Node** — ESP32-based elder care security system with 94.7% detection accuracy. Semi-finalist at Northeastern's Husky Pitch Summit
-- 📡 **CDA/GDA IoT System** — End-to-end IoT pipeline from edge device (Python) to gateway (Java) with encrypted MQTT and CoAP
-- Functional test suite covering health, auth, devices, alarms, and SLA endpoints. 42 pytest test cases with GitHub Actions CI pipeline.
+| Project | Stack | What it does |
+|---|---|---|
+| [**SmartScan Node**](https://github.com/kchimbodza/smartscan-node-aws) | ESP32, AWS IoT Core, Lambda, DynamoDB, Terraform | Elder care occupancy monitoring — ESP32 publishes sensor telemetry via MQTT over TLS to AWS IoT Core, Lambda writes to DynamoDB, SNS fires alerts. Semi-finalist, Northeastern Husky Pitch Summit 2025 |
+| [**AWS Scalable Web Infrastructure**](https://github.com/kchimbodza/aws-scalable-webapp-infra) | Terraform, VPC, ALB, ASG, RDS, CloudWatch | Production-grade AWS infra — ALB across 3 AZs, Auto Scaling driven by CloudWatch CPU alarms, RDS MySQL in private subnets. Load-tested to verify scale-up at 75.6% CPU |
+| [**fraud-detection-k8s**](https://github.com/kchimbodza/fraud-detection-k8s) | Python, FastAPI, Docker, k3s, KVM/QEMU | FINTRAC-themed fraud detection API on a self-hosted 3-node Kubernetes cluster — HPA scales 1→5 pods under load, self-healing, rolling updates |
+| [**Network API Test Automation**](https://github.com/kchimbodza/network-api-test-automation) | Python, pytest, Flask, GitHub Actions | 42-case automated REST API test suite with GitHub Actions CI — green build on every push |
 
 ---
 
