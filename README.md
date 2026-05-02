@@ -1,5 +1,4 @@
 # Hi there 👋
-
 I'm Kudzayi — MSc Cyber-Physical Systems (IoT) student at Northeastern University Toronto & Graduate Teaching Assistant
 
 I build things at the intersection of cloud infrastructure, IoT, and automation.
@@ -7,6 +6,8 @@ I build things at the intersection of cloud infrastructure, IoT, and automation.
 ---
 
 ## 🔧 What I Work With
+
+**AI & LLM:** `Claude API` `LLM-powered workflows` `structured output generation` `rule-based validation`
 
 **Cloud:** `AWS` `Terraform` `CloudFormation` `Lambda` `DynamoDB` `RDS` `S3` `ALB` `CloudWatch` `IAM`
 
@@ -22,6 +23,7 @@ I build things at the intersection of cloud infrastructure, IoT, and automation.
 
 | Project | Stack | What it does |
 |---|---|---|
+| [**Infra Topology Generator**](https://github.com/kchimbodza/infra-topology-generator) | Python, Claude API, IEC 62443, IEC 61850 | AI-powered CLI that generates structured network topology JSON for critical infrastructure from plain-English descriptions — includes rule-based IEC 62443 compliance validation |
 | [**SmartScan Node**](https://github.com/kchimbodza/smartscan-node-aws) | ESP32, AWS IoT Core, Lambda, DynamoDB, Terraform | Elder care occupancy monitoring — ESP32 publishes sensor telemetry via MQTT over TLS to AWS IoT Core, Lambda writes to DynamoDB, SNS fires alerts. Semi-finalist, Northeastern Husky Pitch Summit 2025 |
 | [**AWS Scalable Web Infrastructure**](https://github.com/kchimbodza/aws-scalable-webapp-infra) | Terraform, VPC, ALB, ASG, RDS, CloudWatch | Production-grade AWS infra — ALB across 3 AZs, Auto Scaling driven by CloudWatch CPU alarms, RDS MySQL in private subnets. Load-tested to verify scale-up at 75.6% CPU |
 | [**Fintech Fraud Detection**](https://github.com/kchimbodza/fintech-fraud-detection) | Python, FastAPI, Docker, Kubernetes, KVM/QEMU | FINTRAC-themed fraud detection API on a self-hosted 3-node Kubernetes cluster — auto-scales 1→5 pods under load, self-healing, rolling updates |
