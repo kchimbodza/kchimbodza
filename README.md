@@ -2,7 +2,7 @@
 
 **Software & AI engineer · Computer vision · IoT · Accessible, privacy-first technology**
 
-🎓 M.S. Cyber-Physical Systems (IoT), Northeastern University, finishing **Dec 2026** (GPA 4.0) &nbsp;·&nbsp; 🛡️ CCNA &nbsp;·&nbsp; 📍 Barrie, Ontario
+🎓 M.S. Cyber-Physical Systems (IoT), Northeastern University, finishing **Dec 2026** (GPA 4.0) &nbsp;·&nbsp; 🛡️ CCNA &nbsp;·&nbsp; 📍 Ontario, Canada
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/kudzayichimbodza)
 [![Blog](https://img.shields.io/badge/Blog-myviewsontech.com-555?logo=wordpress&logoColor=white)](https://myviewsontech.com)
