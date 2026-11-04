@@ -22,7 +22,7 @@
 
 | Project | What it does | Built with |
 |---|---|---|
-| 🎥 **[AISS: Accessible AI Surveillance](https://github.com/kchimbodza/aiss-accessible-vision)** | Turns ordinary webcams and old phones into a smart CCTV network that spots intruders and texts the owner. **97% accuracy over 100 field trials.** | Python · OpenCV · Twilio · CI |
+| 🎥 **[AISS: Accessible AI Surveillance](https://github.com/kchimbodza/aiss-accessible-vision)** | Turns ordinary webcams and old phones into a smart CCTV network that spots intruders and texts the owner. A pretrained neural network confirms it's a person before alerting. **97% accuracy over 100 field trials.** | Python · OpenCV · Deep learning (NanoDet) · Twilio |
 | 🧓 **SmartScan: Radar Fall Detection** *(M.S. capstone, in progress)* | A camera-free ceiling sensor that detects falls and alerts family caregivers. Source is private until grading; demo available on request. | ESP32-S3 · C++ · 60 GHz radar · MQTT · Firebase · Android |
 | 🏭 **[Infra Topology Generator](https://github.com/kchimbodza/infra-topology-generator)** | Describe an industrial site in plain English and get a network design, checked against IEC 62443 security rules. | Python · Claude API · IEC 62443 |
 | 🚀 **[K-Flix DevOps Pipeline](https://github.com/kchimbodza/k-flix-devops-cicd-pipeline)** | Every push is tested, scanned and deployed to Kubernetes automatically, with monitoring and Slack alerts. | GitHub Actions · ArgoCD · Terraform · AWS EKS |
