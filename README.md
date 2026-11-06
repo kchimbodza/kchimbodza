@@ -25,6 +25,7 @@
 | 🎥 **[AISS: Accessible AI Surveillance](https://github.com/kchimbodza/aiss-accessible-vision)** | Turns ordinary webcams and old phones into a smart CCTV network that spots intruders and texts the owner. A pretrained neural network confirms it's a person before alerting. **97% accuracy over 100 field trials.** | Python · OpenCV · Deep learning (NanoDet) · Twilio |
 | 🧓 **SmartScan: Radar Fall Detection** *(M.S. capstone, in progress)* | A camera-free ceiling sensor that detects falls and alerts family caregivers. Source is private until grading; demo available on request. | ESP32-S3 · C++ · 60 GHz radar · MQTT · Firebase · Android |
 | 🏭 **[Infra Topology Generator](https://github.com/kchimbodza/infra-topology-generator)** | Describe an industrial site in plain English and get a network design, checked against IEC 62443 security rules. | Python · Claude API · IEC 62443 |
+| 🧠 **[Local LLM Benchmarks](https://github.com/kchimbodza/local-llm-benchmarks-arc-b390)** | Found which open-source AI models run well fully offline on a 16GB laptop GPU, with a pick for each task. Generated code was compiled and run, not just read; tuning raised prompt speed from 33 to 193 tokens/sec. | llama.cpp · Vulkan · Intel Arc · Linux |
 | 🚀 **[K-Flix DevOps Pipeline](https://github.com/kchimbodza/k-flix-devops-cicd-pipeline)** | Every push is tested, scanned and deployed to Kubernetes automatically, with monitoring and Slack alerts. | GitHub Actions · ArgoCD · Terraform · AWS EKS |
 | 💳 **[Fraud Detection on Kubernetes](https://github.com/kchimbodza/fintech-fraud-detection)** | A fraud-check API that scales from 1 to 5 copies under load and heals itself on a 3-node cluster. | FastAPI · Docker · k3s · HPA |
 | ☁️ **[Scalable AWS Web Infrastructure](https://github.com/kchimbodza/aws-scalable-webapp-infra)** | A web stack across 3 data centres that adds servers when traffic rises, all built as code. | Terraform · AWS VPC · ALB · RDS |
@@ -56,7 +57,7 @@
 
 ### 🧰 Toolbox
 
-**AI & vision:** Claude API · LLM extraction & verification · OpenCV · AI coding agents (Claude Code, MCP)<br>
+**AI & vision:** Claude API · LLM extraction & verification · Local LLMs (llama.cpp) · OpenCV · AI coding agents (Claude Code, MCP)<br>
 **Software:** Python · TypeScript · C++ · Node.js · React / Next.js · Kotlin · FastAPI · pytest<br>
 **Cloud & DevOps:** AWS · Terraform · Docker · Kubernetes · GitHub Actions · ArgoCD<br>
 **IoT & networks:** ESP32 · FreeRTOS · MQTT / TLS · Firebase · CCNA · IEC 62443
