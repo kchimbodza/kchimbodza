@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 84" width="112" height="84" role="img" aria-label="A laptop chip with a speed gauge">
+<style>
+.bg{fill:#fff8e6}
+.s{fill:none;stroke:#9a6700;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.f{fill:#9a6700}
+.needle{transform-origin:72px 50px;animation:n 3s ease-in-out infinite}
+@keyframes n{0%,100%{transform:rotate(-40deg)}50%{transform:rotate(35deg)}}
+@media (prefers-color-scheme:dark){.bg{fill:#2e2410}.s{stroke:#e3b341}.f{fill:#e3b341}}
+@media (prefers-reduced-motion:reduce){.needle{animation:none;transform:rotate(30deg)}}
+</style>
+<rect class="bg" width="112" height="84" rx="10"/>
+<g transform="translate(0 0)">
+<rect class="s" x="14" y="26" width="28" height="28" rx="3"/><rect class="s" x="21" y="33" width="14" height="14" rx="1.5"/>
+<path class="s" d="M21 22v4M28 22v4M35 22v4M21 54v4M28 54v4M35 54v4M10 33h4M10 40h4M10 47h4M42 33h4M42 40h4M42 47h4"/>
+<path class="s" d="M56 54a16 16 0 0 1 32 0"/><path class="s" d="M60 47l2 1.5M72 38v2.5M84 47l-2 1.5"/>
+<g class="needle"><path class="s" d="M72 50v-11"/></g><circle class="f" cx="72" cy="50" r="2.4"/>
+<path class="s" d="M54 62h36"/>
+</g>
+</svg>
